@@ -1,0 +1,24 @@
+{
+  "name": "hea-crypto-kosac",
+  "version": "0.0.1",
+  "description": "Homomorphic Encryption Crypto lib made by Kosac",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbckosac/hea-crypto-kosac.git"
+  },
+  "keywords": [
+    "cryptography",
+    "kosac",
+    "homomorphic"
+  ],
+  "author": "ben lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbckosac/hea-crypto-kosac/issues"
+  },
+  "homepage": "https://github.com/lbckosac/hea-crypto-kosac#readme"
+}
