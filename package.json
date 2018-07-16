@@ -1,6 +1,6 @@
 {
   "name": "hea-crypto-kosac",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Homomorphic Encryption Crypto lib made by Kosac",
   "main": "index.js",
   "scripts": {
