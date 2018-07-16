@@ -50,7 +50,8 @@ exports.encrypt = function (bigint) {
         return ;
     }
     // var gamma_minus_eta = GAMMA - ETA;
-    var gamma_minus_eta = 3000 - ETA;
+    console.log('GAMMA : [',GAMMA,' bit]');
+    var gamma_minus_eta = GAMMA - ETA;
     var r1 = this.randomBigIntWithBitLength(gamma_minus_eta);
     var r2 = this.randomBigIntWithBitLength(RHO);
     var out = r1.multiply(sk).add(r2.multiply(lamda)).add(bigint);
